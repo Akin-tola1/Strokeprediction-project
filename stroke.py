@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import joblib
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-import xgboost as xgb
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
